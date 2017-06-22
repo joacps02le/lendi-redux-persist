@@ -1,4 +1,4 @@
-import LndSmtSessionClass from 'resources/class/session/LndSmtSessionClass';
+import LndSmtSessionClass from '../../../resources/class/session/LndSmtSessionClass';
 /**
  *
  * @param{Object} sessionState

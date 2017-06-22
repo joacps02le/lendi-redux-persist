@@ -32,7 +32,8 @@ class LndSmtButton extends React.Component {
                 disabled={this.props.disabled}
                 value={this.props.value}
                 onClick={(e) => {
-                    this.props.onHandleClick(e, this.props.onHandleClickParams);
+                    // this.props.onHandleClick(e, this.props.onHandleClickParams);
+                    console.log('click');
                 }}
                 ref={(input) => {
                     this.textInput = input;
